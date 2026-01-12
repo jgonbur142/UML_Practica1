@@ -30,11 +30,11 @@ Por lo que he investigado, las cardinalidades en UML pueden ser:
 
 Según he investigado, las diferencias entre las tres sería algo así:
 
-- **Asociación** Relación general entre dos clases, que no implica dependencia entre los objetos (Un profesor imparte varias asignaturas).
+- **Asociación**: Relación general entre dos clases, que no implica dependencia entre los objetos (Un profesor imparte varias asignaturas).
 
-- **Agregación** Relación débil pero solo por parte de uno de los objetos (Un libro existe en la librería, pero seguirá existiendo aunque la librería no esté).
+- **Agregación**: Relación débil pero solo por parte de uno de los objetos (Un libro existe en la librería, pero seguirá existiendo aunque la librería no esté).
 
-- **Composición** Relación débil en la que si el objeto principal falla, los demás también (Una casa tiene habitaciones, si la casa desaparece, las habitaciones también).
+- **Composición**: Relación débil en la que si el objeto principal falla, los demás también (Una casa tiene habitaciones, si la casa desaparece, las habitaciones también).
 
   
   
