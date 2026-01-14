@@ -14,7 +14,7 @@ public class Main {
 		
 		System.out.printf("Número de pedido: %d\n",pedido.getNumero());
 		System.out.printf("Estado: %s\n",pedido.getEstado());
-		System.out.printf("Total: %f €\n",pedido.calcularTotal());
+		System.out.printf("Total: %.2f €\n",pedido.calcularTotal());
 		
 		pedido.setEstado(EstadoPedido.ENVIADO);
 		System.out.printf("Nuevo estado: %s",pedido.getEstado());

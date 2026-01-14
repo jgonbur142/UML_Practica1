@@ -1,11 +1,12 @@
 package ejemploUML;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Pedido {
 	private int numero;
 	private EstadoPedido estado;
-	private ArrayList <Producto> productos;
+	private List <Producto> productos;
 	
 	public Pedido(int numero){//constructor
 		this.numero=numero;
@@ -18,7 +19,7 @@ public class Pedido {
 	}
 	
 	public double calcularTotal() {
-		double total = 0;
+		double total = 0.0;
 		for (Producto p : productos) {
 			total += p.getPrecio();
 		}
@@ -32,8 +33,6 @@ public class Pedido {
 	public EstadoPedido getEstado() {
 		return estado;
 	}
-
-
 
 	public void setEstado(EstadoPedido estado) {
 		this.estado = estado;

@@ -5,8 +5,8 @@ public class Producto {
 	private double precio;
 	
 	public Producto(String nombre, double precio) {//constructor
-		this.nombre="¿?";
-		this.precio=0.0;
+		this.nombre=nombre;
+		this.precio=precio;
 	}
 
 	public String getNombre() {
